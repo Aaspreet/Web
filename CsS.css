@@ -1,0 +1,44 @@
+*{
+    background-color: darkslategray;
+}
+
+h1{
+    text-align: center;
+    -webkit-text-stroke: 0.5px whitesmoke;
+    font-size: 50px;
+}
+
+.rows{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+}
+
+.tiles{
+    border: 2px double white;
+    height: 60px;
+    width: 60px;
+    margin: 1px;
+    margin-top: 5px;
+
+    text-align: center;
+    line-height: 60px;
+
+    font-size: 50px;
+    color: rgb(154, 235, 255);
+}
+
+#message{
+    font-size: 20px;
+    color: red;
+    -webkit-text-stroke: 1px rgb(241, 81, 81);
+    position: absolute;
+    left: 50%;
+    top: 11%;
+    transform: translate(-50%, 0%);
+}
