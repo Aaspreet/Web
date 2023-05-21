@@ -1,0 +1,49 @@
+html {
+  background-color: #F5F5DC;
+}
+
+body{
+     user-select: none;
+}
+
+.navigationElement {
+  font-size: 4vh;
+  position: absolute;
+}
+
+#about {
+  left: 70vw;
+}
+#pricing {
+  left: 80vw;
+}
+#contact {
+  left: 90vw;
+}
+
+
+
+#particles-js {
+    background: rgb(0, 0, 0);
+    position: absolute;
+    width: 65vw;
+    height: auto;
+    top: -10vh;
+    left: 0vw;
+
+  border-radius: 0 5vw 30vw 0 / 0 5vw 25vw 0;
+}
+
+#headTextBackground{
+    position: absolute;
+    font-size: 140px;
+    white-space: nowrap;
+    left: 50%;
+    top: 20vh;
+    color: rgb(255, 255, 255);
+    transform: translate(-50%);
+    z-index: 1;
+    mix-blend-mode:difference;
+    pointer-events: none;
+
+}
